@@ -721,6 +721,38 @@ html{
     box-shadow: 0 0 30px #0ef;
 }
 
+/* Responsive styling for company name h1 */
+#navbar h1{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+@media screen and (max-width: 992px){
+    #navbar h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #navbar h1{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #navbar h1{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #navbar h1{
+        font-size: 0.85rem;
+    }
+}
+
 /*  */
 
 
