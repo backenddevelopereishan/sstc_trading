@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(for:*)",
+      "Bash(do)",
+      "Bash(if grep -q '<span style=\"\"color:#0951a3;\"\">S.</span>' \"$file\")",
+      "Bash(then)",
+      "Bash(echo:*)",
+      "Bash(fi:*)",
+      "Bash(done)"
+    ]
+  }
+}
